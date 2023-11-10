@@ -1,5 +1,5 @@
 section .text
-    global_start            ;precisa ser adicionado para o gerador do executavel saiba onde começa
+    global _start            ;precisa ser adicionado para o gerador do executavel saiba onde começa
 
 _start:
     mov edx,len             ;tamanho do texto.  len(length-> comprimento)
